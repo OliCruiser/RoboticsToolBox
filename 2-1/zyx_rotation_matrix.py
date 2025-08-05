@@ -36,10 +36,6 @@ def main():
         # 打印结果，保留 4 位小数
         print("\nZYX 欧拉角对应的旋转矩阵 R_ab：")
         print(np.round(R, 4))
-        print("\nZYX 欧拉角对应的旋转矩阵 R_ab 的转置：")
-        print(np.round(np.transpose(R), 4))
-        print("\nZYX 欧拉角对应的旋转矩阵 R_ab 的逆：")
-        print(np.round(np.linalg.inv(R), 4))
 
     except ValueError:
         print("错误：请输入有效的数字！")
