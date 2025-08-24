@@ -36,7 +36,7 @@ def main():
         # 打印结果，保留 4 位小数
         print("\nZYX 欧拉角对应的旋转矩阵 R_ab：")
         print(np.round(R, 4))
-
+        print(111)
     except ValueError:
         print("错误：请输入有效的数字！")
 
